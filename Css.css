@@ -1,0 +1,476 @@
+@font-face {
+    font-family: "Varela";
+    src: url(VarelaRound-Regular.ttf)format('truetype');
+}
+
+.text1{
+    top: 25px;
+    left: 53px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 22px;
+    font-style: Bold;
+    text-align: left;
+    font-family: "Varela";
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+@keyframes contoh{
+    0%{left: 13px; top: 25px;}
+    25%{left: 33px;top: 25px;}
+    50%{left: 43px;top: 25px;}
+    100%{left: 53px;top: 25px;}
+
+}
+
+.text2{
+    top: 25px;
+    left: 173px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 22px;
+    font-style: Bold;
+    text-align: left;
+    font-family: "Varela";
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.text3{
+    top: 25px;
+    left: 339px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 22px;
+    font-style: Bold;
+    text-align: left;
+    font-family: "Varela";
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.text4{
+    top: 25px;
+    left: 503px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 22px;
+    font-style: Bold;
+    text-align: left;
+    font-family: "Varela";
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.text5{
+    top: 25px;
+    left: 623px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 22px;
+    font-style: Bold;
+    text-align: left;
+    font-family: "Varela";
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+
+
+.Certificate{
+    top: 69px;
+    left: 119px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 18px;
+    font-style: Bold;
+    text-align: left;
+    font-family: "Varela";
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+
+
+.Certificate1{
+    top: 69px;
+    left: 469px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 18px;
+    font-style: Bold;
+    text-align: left;
+    font-family: "Varela";
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.Certificate a{
+    text-decoration:none;
+    color: rgba(0, 0, 0, 1);
+    line-height: 5;
+}
+
+.Certificate1 a{
+    text-decoration:none;
+    color: rgba(0, 0, 0, 1);
+    line-height: 5;
+}
+
+
+body{
+    background-image: url(Background1.jpg);
+    width: 1440px;
+    height: 2180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.kotak{
+    width: 1100px;
+    height: 600px;
+    left: 225px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.lingkaran{
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background-color: #46BEAE;
+    margin-top: 110px;
+    margin-left: 150px;
+    animation-name: ling2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+
+.wisnu{
+  top: 205px;
+  left: 549px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  z-index: 8;
+  position: absolute;
+  font-size: 100px;
+  font-style: Regular;
+  text-align: left;
+  font-family: 'Varela', sans-serif;
+  font-weight: 1000;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  animation-name: contoh;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+@keyframes contoh{
+    from {left: 659px;opacity: 0.1;}
+    to {left: 549px;opacity: 1;}
+}
+
+@keyframes contoh1{
+    from {left: 729px; opacity: 0.1;}
+    to {left: 563px;opacity: 1;}
+}
+
+.AN{
+    top: 305px;
+    left: 563px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    z-index: 9;
+    position: absolute;
+    font-size: 30px;
+    font-style: Regular;
+    text-align: left;
+    font-family: "Varela", sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    animation-name: contoh1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+
+.lingkaran2{
+    background-image: url(mukasaya.png);
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    top: 142px;
+    left: 183px;
+    animation-name: ling2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+
+}
+
+@keyframes ling2 {
+    from{
+        opacity: 0.1;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.aboutme strong{
+    top: 150px;
+    left: 450px;
+    width: 200px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    z-index: 9;
+    position: absolute;
+    font-size: 32px;
+    font-style: Regular;
+    text-align: center;
+    font-family: "Varela";
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.bio{
+    top: 230px;
+    left: 14%;
+    color: rgba(0, 0, 0, 0.699999988079071);
+    width: 805px;
+    height: auto;
+    position: absolute;
+    font-size: 19px;
+    font-style: Bold;
+    text-align: center;
+    font-family: "Varela";
+    font-weight: 700;
+    line-height: 46px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+li:hover{
+    font-weight: bolder;
+}
+
+.vidio{
+    width: 640px;
+    height: 360px;
+    position: absolute;
+    top: 200px;
+    left: 232px;
+    border: 10px solid #46BEAE;
+    border-radius: 3%;
+}
+
+
+
+
+.teks6{
+    top: 100px;
+    left: 494px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 22px;
+    font-style: Bold;
+    text-align: left;
+    font-family: "Varela";
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+
+.text7{
+    top: 570px;
+    left: 434px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 22px;
+    font-style: Bold;
+    text-align: left;
+    font-family: "Varela";
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.text8{
+    top: 1070px;
+    left: 244px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 18px;
+    font-style: Bold;
+    text-align: left;
+    font-family: "Varela";
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.text9{
+    top: 1070px;
+    left: 668px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 18px;
+    font-style: Bold;
+    text-align: left;
+    font-family: "Varela";
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.text10{
+    top: 1540px;
+    left: 180px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 18px;
+    font-style: Bold;
+    text-align: left;
+    font-family: "Varela";
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.text11{
+    top: 2020px;
+    left: 381px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 18px;
+    font-style: Bold;
+    text-align: left;
+    font-family: "Varela";
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.text12{
+    top: 1540px;
+    left: 601px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 18px;
+    font-style: Bold;
+    text-align: left;
+    font-family: "Varela";
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    text-align: center;
+    width: 350px;
+}
+
+.MoodboardBhineka{
+    position: absolute;
+    top: 680px;
+    left: 125px;
+}
+
+.projek1{
+    position: absolute;
+    top: 680px;
+    left: 585px;
+}
+
+.projek2{
+    position: absolute;
+    top: 1145px;
+    left: 125px;
+}
+
+.projek3{
+    position: absolute;
+    top: 1145px;
+    left: 585px;
+}
+
+.projek4{
+    position: absolute;
+    top: 680px;
+    left: 585px;
+}
+
+.roblox{
+    position: absolute;
+    top: 1630px;
+    left: 350px;
+}
+
+.spacewar{
+    position: absolute;
+    top: 175px;
+    left: 240px;
+    border: 5px #46BEAE solid;
+    border-radius: 5%;
+}
+
+.text7:hover{
+    text-decoration: underline;
+}
